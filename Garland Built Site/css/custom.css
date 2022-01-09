@@ -1,0 +1,231 @@
+
+body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	background-image:url("../images/wood.jfif");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	
+
+}
+
+#home-button{
+	background-image:url("../images/home-building-outline-symbol.png");
+	background-size:35px;
+	padding:1.5em;
+	border-color:white;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 30px;
+	background-repeat: no-repeat;
+	background-position: center;}
+
+.home-icon{
+	background-image:url("../images/home.png");
+	margin-right:5px;}
+
+#open-button-container{
+	display: flex;
+	background-color:#111;
+	background: cover;
+	widt::100%;
+	padding:2em;
+	margin: 0;
+	margin-bottom:0;
+	justify-content: space-between;
+	align-content: center;
+	font-size:25px;
+}
+
+#openbutton{
+	background-color:black;
+	background-image:url("../images/whitemenu.png");
+	background-repeat: no-repeat;
+	background-size:45px;
+	margin-right: 10px;
+	padding-right:45px;
+	border-style: none;	
+}
+
+
+.top{
+	background-color: black;
+	width:100%;
+	height: 4em;
+
+}
+
+.text{
+	color: white;
+	padding-top: 10px;
+}
+
+#bob{
+	width:0;
+	background-color: black;
+}
+
+#intro-container{
+	box-sizing: border-box;
+	display:flex ;
+	align-content: center;
+	background-image:url("../images/steve-johnson-YS0YJLU_h2k-unsplash.jpg");
+	background-position: center;
+	border-style:solid ;
+	border-color:#7C0A02;
+	border-width:5px;
+	display:flex;
+	font-size: 1em;
+	font-family:Helvetica;
+	flex-shrink: 4;
+	margin-top:5px;
+	justify-content: center;
+	padding:50px;
+	margin-right:10em;
+	margin-left:10em;
+}
+#custom-header-container{	
+	background-image:url("../images/clem-onojeghuo-hdW4rZPHe2g-unsplash (1).jpg");
+	border-style: solid;
+	background-size:auto;
+	border-width:5px;
+	border-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:black;
+	display: flex;
+	font-size: 2em;
+	justify-content:center;
+	align-content: center;
+	position: relative;
+	padding: 2em;
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	flex-shrink:1;
+	
+}
+
+p{
+	background-color:floralwhite;
+	border-style: solid;
+	border-color:darkred;
+	border-width:5px;
+	padding: 5px;
+	position: relative;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a: visited {
+	color:#7C0A02 ;
+}
+#products-container{
+	
+	background-image:url("../images/clem-onojeghuo-hdW4rZPHe2g-unsplash(1).jpg");
+	border-style: solid;
+	background-size:auto;
+	border-width:5px;
+	border-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	position: relative;
+	padding: 8em;
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 1em;
+}
+
+#contact-us-container{
+	border-style: solid;
+	background-size:cover;
+	border-width:5px;
+	border-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	position: relative;
+	padding: 8em;
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 1em;
+}
+
+#contact-container{
+	position: ;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	justify-content:space-around;
+	padding: 20px;
+	padding-bottom:5em;
+}
+
+#phone-container{
+	background-color:black;
+	color: white;
+	display: flex;
+	font-size:25px;
+	justify-content: center;
+	padding: 15px;
+	margin-top:9em;
+	margin-bottom:;
+
+}
+
+					/* Sidenav styling */
+
+						@media screen and (max-height: 450px){
+						.sidenav {padding-top: 15px;}
+						.sidenav a{font-size:18px;}}
+
+
+						/* The side navigation menu */
+						.sidenav {
+						  height: 100%; /* 100% Full-height */
+						  width: 0; /* 0 width - change this with JavaScript */
+						  position: fixed; /* Stay in place */
+						  z-index: 1; /* Stay on top */
+						  top: 0; /* Stay at the top */
+						  left: 0;
+						  background-color: #111; /* Black*/
+						  overflow-x: hidden; /* Disable horizontal scroll */
+						  padding-top: 60px; /* Place content 60px from the top */
+						  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+						}
+
+						/* The navigation menu links */
+						.sidenav a {
+						  padding: 8px 8px 8px 32px;
+						  text-decoration: none;
+						  font-size: 25px;
+						  color: #818181;
+						  display: block;
+						  transition: 0.3s;
+						}
+
+						/* When you mouse over the navigation links, change their color */
+						.sidenav a:hover {
+						  color: #f1f1f1;
+						}
+
+						/* Position and style the close button (top right corner) */
+						.sidenav .closebtn {
+						  position: absolute;
+						  top: 0;
+						  right: 25px;
+						  font-size: 36px;
+						  margin-left: 50px;
+						}
